@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TextColorDirective } from './text-color.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TextColorDirective
   ],
   imports: [
     BrowserModule,
